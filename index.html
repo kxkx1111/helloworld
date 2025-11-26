@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header start -->
+     <header>
+        <a href="#">
+            <h2>M-hd<span>movie.com</span></h2>
+        </a>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">Popular</a></li>
+            </ul>
+        </nav>
+
+
+        
+        <ul>
+            <li><i class="bx bx-cog" id="setting-toggle"></i></li>
+            <li><i class="bx bx-sun" id="toggle"></i></li>
+            <!-- <li><i class='bx bxs-moon' id="dark"></i></li> -->
+            <li><i class="bx bx-menu menu-toggle"></i></li>
+
+        </ul>
+     </header>
+     <div class="setting-box">
+        <img src="1.jpg" alt="">
+        <img src="2.jpg" alt="">
+        <img src="3.jpg" alt="">
+        <img src="4.jpg" alt="">
+        <img src="5.jpg" alt="">
+        <img src="6.jpg" alt="">
+
+
+     </div>
+     <!-- header end -->
+
+     <main>
+        <!-- Image Landing Start -->
+      <section id="landing">
+        <img src="1.jpg" alt="hee hee" class="landing-image">
+        <div class="hover-box"></div>
+
+        <div class="search">
+            <h1>Search Movie here</h1>
+            <input type="text" placeholder="Search by movie name" id="search">
+        </div>
+      </section>
+      <!-- image landing end -->
+
+      <section id="popular">
+        <h1>popular Movie</h1>
+        <div class="movie-container"> 
+        </div>
+
+      </section>
+     </main>
+
+     <!-- Scroll top -->
+     <div class="scroll-top">
+        <i class='bx bx-chevrons-up'></i>
+     </div>
+
+     <!-- Load  -->
+      <div class="loader">
+        <div class="load-child">
+            
+        </div>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
